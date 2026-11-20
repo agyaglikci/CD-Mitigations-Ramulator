@@ -1,0 +1,18 @@
+# build outputs
+/build/
+/ramulator2
+/libramulator.so
+/libramulator.dylib
+
+# fetched dependencies (CMake FetchContent)
+/ext/
+
+# traces and generated configs / results
+/cputraces/
+/auto_configs/
+/auto_configs_mix/
+*.log
+
+**/.DS_Store
+**/__pycache__/
+**/*.pyc
